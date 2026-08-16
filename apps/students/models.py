@@ -1,7 +1,9 @@
 import uuid
+
 from django.conf import settings
-from apps.core.choices import BloodType, Sex
 from django.db import models
+
+from apps.core.choices import BloodType, Sex
 
 
 class Student(models.Model):
